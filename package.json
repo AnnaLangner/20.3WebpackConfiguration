@@ -1,10 +1,10 @@
 {
   "name": "20.3WebpackConfiguration",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,15 @@
   "devDependencies": {
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaLangner/20.3WebpackConfiguration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnnaLangner/20.3WebpackConfiguration/issues"
+  },
+  "homepage": "https://github.com/AnnaLangner/20.3WebpackConfiguration#readme",
+  "description": ""
 }
